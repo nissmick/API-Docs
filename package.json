@@ -1,0 +1,14 @@
+{
+  "name": "api-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "redoc-cli bundle docs.yaml -o docs/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "redoc-cli": "^0.13.0"
+  }
+}
