@@ -27,5 +27,5 @@ jobs:
 
       - run: npm ci
 
-      - name: bundle
-        run: npm run bundle
+      - name: generate
+        run: npm run gen
