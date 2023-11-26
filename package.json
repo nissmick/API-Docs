@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gen": "redoc-cli bundle docs.yaml -o docs/index.html"
+    "gen": "npx @redocly/cli build-docs docs.yaml -o docs/index.html"
   },
   "author": "",
   "license": "ISC",
